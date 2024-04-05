@@ -108,6 +108,7 @@ int main()
 
     while(hours_passed != HOURS_DURATION)
     {
+        std::cout<<"hour: "<< hours_passed+1<<std::endl;
         int minutes_passed = 0;
         while(minutes_passed != 60)
         {
@@ -124,7 +125,6 @@ int main()
         mintemps();
         maxinterval();
         hours_passed++;
-        //std::cout<<"hour: "<< hours_passed<<std::endl;
     }
 
 
