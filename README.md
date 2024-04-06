@@ -1,11 +1,13 @@
 # COP4520assignment3
 
 To run part 1:
+
 g++ -fpermissive mino.cpp
 
 ./a.out
 
 To run part 2:
+
 g++ -fpermissive temp.cpp
 
 ./a.out
